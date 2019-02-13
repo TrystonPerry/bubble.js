@@ -1,0 +1,35 @@
+.bubble {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1), 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.bubble:hover {
+  background: lightgreen;
+}
+
+.bubble-0 { 
+  background: rgb(200, 40, 40); 
+  height: 250px;
+  width: 250px;
+}
+
+.bubble-1 { 
+  background: cyan;
+  height: 150px;
+  width: 150px;
+}
+
+.bubble-2 { 
+  background: yellow;
+  height: 200px;
+  width: 200px;
+}
+
+.bubble-3 { 
+  background: orange;
+  height: 170px;
+  width: 170px;
+}
