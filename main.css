@@ -1,35 +1,134 @@
+body {
+  overflow-x: hidden;
+}
+
 .bubble {
   height: 100px;
   width: 100px;
   border-radius: 50%;
   position: absolute;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.1), 0 3px 10px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 15px 35px rgba(0,0,0,.2), 0 3px 35px rgba(0, 0, 0, 0.07);
 }
 
-.bubble:hover {
-  background: lightgreen;
+.bubble-img {
+  width: 70%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.bubble-tooltip {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, 0%);
+}
+
+.bubble-tooltip-text {
+  background: white;
+  color: black;
+  font-family: 'Roboto';
+  font-style: bold;
+  font-size: 12px;
+  text-align: center;
+  box-shadow: 0 0px 5px 1px rgba(0,0,0,.15);
+  padding: 10px;
+  border-radius: 10px;
+  z-index: 99;
 }
 
 .bubble-0 { 
-  background: rgb(200, 40, 40); 
+  background: #FFB560;
   height: 250px;
   width: 250px;
 }
 
 .bubble-1 { 
-  background: cyan;
+  background: #32C4E9;
   height: 150px;
   width: 150px;
 }
 
 .bubble-2 { 
-  background: yellow;
+  background: #F0DB4F;
   height: 200px;
   width: 200px;
 }
 
 .bubble-3 { 
-  background: orange;
+  background: #E63D45;
   height: 170px;
   width: 170px;
+}
+
+.bubble-4 {
+  background: #563D7C;
+  height: 200px;
+  width: 200px;
+}
+
+.bubble-5 {
+  background: #CC3534;
+  width: 150px;
+  height: 150px;
+}
+
+.bubble-6 {
+  background: #C2FD75;
+  width: 250px;
+  height: 250px;
+}
+
+.bubble-7 {
+  background: white;
+  width: 150px;
+  height: 150px;
+}
+
+.bubble-8 {
+  background: #BEF8A3;
+  height: 200px;
+  width: 200px;
+}
+
+.bubble-9 {
+  background: #3765AF;
+  height: 250px;
+  width: 250px;
+}
+
+.bubble-10 {
+  background: #681F78;
+  height: 200px;
+  width: 200px;
+}
+
+.bubble-11 {
+  background: #CB760C;
+  height: 175px;
+  width: 175px;
+}
+
+.bubble-12 {
+  background: #0179CF;
+  height: 150px;
+  width: 150px;
+}
+
+.bubble-13 {
+  background: #81BBFB;
+  height: 250px;
+  width: 250px;
+}
+
+.bubble-14 {
+  background: #FFAF3A;
+  height: 150px;
+  width: 150px;
 }
