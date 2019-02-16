@@ -11,10 +11,10 @@ Javascript library that moves elements progressively right to left across the sc
 Files needed:
 * bubble.js
 * (Optional) bubble.css
-* (Optional) bubble.html
+* (Optional) index.html
 
-There is a CDN available if you dont want to download or change any settings.
-* Regualar (Recommended) 
+There is a CDN available if you dont' want to download or change any settings.
+* Regular (Recommended) 
   
   `<script src="https://www.trystonperry.com/bubble.js/bubble.js"></script>`
 * Minified (Compressed) 
@@ -24,7 +24,7 @@ There is a CDN available if you dont want to download or change any settings.
 
 The js file is customizable, so it is recommended to download your own copy so you can config it for your needs.
 
-Visit https://trystonperry.com/bubble.js and click the download button to get your own version.
+To download the demo project zip, visit http://trystonperry.com/bubble.js/bubble.js.zip
 
 ## HTML Setup
 
@@ -38,7 +38,7 @@ By default, the bubble.js finds all bubbles with the class name `.bubble`.
 
 `.bubble-0` is an identifier to use in CSS for customization (Optional)
 
-`.bubble-toolip` is for a peice of text that is shown below the bubble (Optional)
+`.bubble-tooltip` is for a piece of text that is shown below the bubble (Optional)
 
 ## CSS Setup
 
@@ -73,8 +73,8 @@ The next 4 variables are paramaters for the random min and max Y's
 
 * `minAvgYSpeed` = Minimum average speed (The speed when the bubble is far from the max or min position) 
 * `maxAvgYSpeed` = Maximum average speed (The speed when the buble is far...)
-* `minMinYSpeed` = Minimum minimum speed (The speed when the bubble is aproaching or leaving min or max position)
-* `maxMinYSpeed` = Maximum minimum speed (The speed when the bubble is apr...)
+* `minMinYSpeed` = Minimum minimum speed (The speed when the bubble is approaching or leaving min or max position)
+* `maxMinYSpeed` = Maximum minimum speed (The speed when the bubble is ap...)
 
 
 * `X_SPEED` = The speed at which bubbles move on the X axis (ex: if X_SPEED = 1: bubbles will move to the left 1 pixel per 30ms)
