@@ -16,15 +16,15 @@ Files needed:
 There is a CDN available if you dont' want to download or change any settings.
 * Regular (Recommended) 
   
-  `<script src="https://www.trystonperry.com/bubble.js/bubble.js"></script>`
+  `<script src="https://www.trystonperry.com/bubble.js/dl/bubble.js"></script>`
 * Minified (Compressed) 
   
-  `<script src="https://www.trystonperry.com/bubble.js/bubble.min.js"></script>`
+  `<script src="https://www.trystonperry.com/bubble.js/dl/bubble.min.js"></script>`
 
 
 The js file is customizable, so it is recommended to download your own copy so you can config it for your needs.
 
-To download the demo project zip, visit http://trystonperry.com/bubble.js/bubble.js.zip
+To download the demo project zip, visit http://trystonperry.com/bubble.js/dl/bubble.js.zip
 
 ## HTML Setup
 
@@ -39,6 +39,8 @@ By default, the bubble.js finds all bubbles with the class name `.bubble`.
 `.bubble-0` is an identifier to use in CSS for customization (Optional)
 
 `.bubble-tooltip` is for a piece of text that is shown below the bubble (Optional)
+
+**Recommended tip: dont put .bubbles div inside another div unless you are okay with changig X_OFFSET**
 
 ## CSS Setup
 
