@@ -2,6 +2,10 @@ body {
   overflow-x: hidden;
 }
 
+.bubbles {
+  width: 100%;
+}
+
 .bubble {
   height: 100px;
   width: 100px;
@@ -41,6 +45,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   z-index: 99;
+  margin-top: 5px;
 }
 
 .bubble-0 { 

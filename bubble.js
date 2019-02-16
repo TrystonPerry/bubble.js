@@ -1,3 +1,13 @@
+/*
+#####################################################
+#                                                   #
+#       View documentation on github for help       #
+#         github.com/trystonperry/bubble.js         #
+#                                                   #
+#####################################################
+*/
+
+// Grab all bubbles (.bubble);
 const bubbles = document.getElementsByClassName('bubble');
 
 // Position data for each bubble
@@ -170,12 +180,14 @@ const bubblePos = [
   }
 ]
 
-// How often the bubble position is updated
+// How often the bubble position is updated (ms)
 const interval = 30;
 
 // The offset for final Y position change. 
-// Use this if you want the bubbles to be lower on the page
 const Y_OFFSET = 0;
+
+// The offset for final X position
+const X_OFFSET = 0;
 
 // Configure min and max speeds for Y movement
 let minAvgYSpeed = 0.01;    // Minimum average speed
@@ -183,9 +195,15 @@ let maxAvgYSpeed = 0.2;     // Maximum average speed
 let minMinYSpeed = 0.025;   // Minimum minimum speed
 let maxMinYSpeed = 0.05;    // Maximum minimum speed
 
+// The speed all bubbles move to the left
+const X_SPEED = 1;
+
 
 // Loop through all HTML bubbles
 for(let i = 0; i < bubbles.length; i++) {
+
+
+  moveBubble(bubbles[i], bubblePos[i].x, bubblePos[i].y);
 
   // Set interval for bubble update code
   setInterval(() => {
@@ -194,10 +212,10 @@ for(let i = 0; i < bubbles.length; i++) {
     moveBubble(bubbles[i], bubblePos[i].x, bubblePos[i].y);
 
     // If bubble is off left side of the screen, place it off screen on the right
-    if(bubblePos[i].x <= -375) { bubblePos[i].x = 2000 } 
+    if(bubblePos[i].x <= -475) { bubblePos[i].x = 1900 } 
 
     // Lower bubble X (to left)
-    bubblePos[i].x -= 0.5;
+    bubblePos[i].x -= X_SPEED;
 
     // If bubble Y is lowering (+Y)
     if(!bubblePos[i].isRising) {
@@ -265,5 +283,5 @@ for(let i = 0; i < bubbles.length; i++) {
 
 // Set the css property of HTML bubble transform to new X Y position
 function moveBubble(bubble, x, y) {
-  bubble.style.transform = `translate(${x}px, ${Y_OFFSET + y}px)`;
+  bubble.style.transform = `translate(${x + X_OFFSET}px, ${y + Y_OFFSET}px)`;
 }
