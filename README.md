@@ -2,7 +2,7 @@
 
 Javascript library that moves elements progressively right to left across the screen. While also slowly moving each element vertically at their own speed and paramaters.
 
-![Bubbles](https://media.giphy.com/media/XKjzc6f8PYl4b3pNDR/giphy.gif)
+![](https://user-images.githubusercontent.com/20135447/52904392-93959580-31e0-11e9-9d47-5a7964922a4e.gif)
 
  To get a demo, check out https://trystonperry.com/bubble.js
 
