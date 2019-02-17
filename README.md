@@ -13,7 +13,7 @@ Files needed:
 * (Optional) bubble.css
 * (Optional) index.html
 
-There is a CDN available if you dont' want to download or change any settings.
+There is a CDN available if you don't want to download or change any settings.
 * Regular (Recommended) 
   
   `<script src="https://www.trystonperry.com/bubble.js/dl/bubble.js"></script>`
@@ -40,7 +40,7 @@ By default, the bubble.js finds all bubbles with the class name `.bubble`.
 
 `.bubble-tooltip` is for a piece of text that is shown below the bubble (Optional)
 
-**Recommended tip: dont put .bubbles div inside another div unless you are okay with changig X_OFFSET**
+**Recommended tip: Don't put .bubbles div inside another div unless you are okay with changing X_OFFSET**
 
 ## CSS Setup
 
